@@ -1,0 +1,38 @@
+//////////////////// HTML /////////////////
+
+// div - organiza minhas seções - divide corpo em seções para trabalhar
+    !** qual diferença entre div e section?
+
+//wrapper - container: facilita formatar blocos de divs ao inves de ir arrumando uma a uma
+
+//class = é para se aplicar estilos iguais sem precisar ficar repetindo id
+
+//ESCRITA RÁPIDA NO HTML - EMMET
+    - DIVS: div.nomeClasse
+    - a*2 = cria 2 - ancoras
+    - #: na ancora vai p pagina inicial mesmo
+
+
+///////////////////// CSS /////////////////
+
+//BOAS PRÁTICAS: 
+    //RESETAR estilos NO CSS - PRIMEIRAR COISA: evita problemas no css
+        *{
+            padding: 0;
+            .....
+        }
+
+//DISPLAY: palavra para definir a renderização de um elemento; o none desabilita a renderização
+    - Modelos de tabela: existe mais
+        - inline: elemento gera uma ou mais caixas de elementos inline
+        - block: elemento gera uma caixa de elemento de bloco
+        - list- item: O elemento gera uma caixa de bloqueio para o conteúdo e uma caixa embutida de item de lista separada
+    -Valores do modelo Flexbox:
+        - flex: O elemento se comporta como um elemento de bloco e apresenta seu conteúdo de acordo com o modelo flexbox.
+        - inline-flex
+    -DISPLAY: Flex = setar flex num containero elemento vira um flex-container = 
+    flex-container é:
+        - elementos dentro do container vão ficar em linha, ocupando maior espaço dentro daquela linha
+        - por padrão, vai alinhar elementos em linha; 
+//align -itens: alinhamento vertical dos itens
+//justify-content: alinha horizontal 
